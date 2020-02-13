@@ -1,0 +1,6 @@
+Hi.
+There are 2 bugs in the project.
+1- duplicate image function do affect on modal slider.
+2- dnd is view only, it doesn't change state or rendered.
+
+Thank you.

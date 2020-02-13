@@ -1,0 +1,48 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.app-root {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  font-size: 20pt;
+}
+
+.app-input {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.flipx {transform: rotateX(180deg);}
+
+  .btn-fav-toggle {
+    padding: 10px 0;
+    width: 100px;
+    border: none;
+    background-color: #222;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0px 3px 6px rgba(#222, .2);
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    &:hover, &:focus {
+      background-color: darken(#222, 15%);
+      border-color: darken(#222, 15%);
+    }
+  }
